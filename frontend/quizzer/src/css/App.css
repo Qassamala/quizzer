@@ -31,7 +31,7 @@
 .general-button {
   height: 50px;
   width: 75px;
-  border-radius: 5px;
+  border-radius: 10px;
   margin: 10px;
 }
 
@@ -69,9 +69,12 @@ input[type="text"] {
 }
 
 .form-input[type="submit"] {
-  align-items: center;
   padding: 8px 16px;
   font-size: 16px;
+  align-self: center;
+  border-radius: 10px;
+  height: 50px;
+  width: 75px;
 }
 
 @keyframes App-logo-spin {
