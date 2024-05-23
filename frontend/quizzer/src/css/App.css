@@ -28,6 +28,27 @@
   color: #61dafb;
 }
 
+.general-button {
+  background-color: #00a650;
+  height:fit-content;
+  width: 75px;
+  border-radius: 5px;
+}
+
+.general-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column
+}
+
+.main-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
